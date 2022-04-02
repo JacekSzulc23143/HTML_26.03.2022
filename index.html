@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Moja super strona!</title>
+</head>
+<body>
+
+<table border="1px">
+
+    <!-- Pierwszy rząd -->
+    <tr>
+        <!-- Pierwsza kolumna -->
+        <td><img src="https://cdn.pixabay.com/photo/2019/04/02/09/37/cat-4097325_960_720.jpg" width="400px"></td>
+        <!-- Druga kolumna -->
+        <td><label><b>Uzupełnij tekst: </b></label><input name="name" type="text"/></td>
+        <!-- Trzecia kolumna -->
+        <td><center><b>Dzień<i> dobry</i>!</b></center></td>
+    </tr>
+
+    <!-- Drugi rząd -->
+    <tr>
+        <!-- Pierwsza kolumna -->
+        <td>
+            <label>Wybierz: Kot, pies, mysz:</label>
+            <select name="favouritePet">
+                <option value="cat">kot</option>
+                <option value="dog">pies</option>
+                <option value="mouse">mysz</option>
+            </select>
+        </td>
+        <!-- Druga kolumna -->
+        <td colspan="2">
+            <dl>
+                <dt>Lista zajęć:</dt>
+                    <dd>
+                        <ol>
+                            <li>IDE i praca z debuggerem</li>
+                            <li>Konsole i podstawy Linuxa</li>
+                            <li>JS, CSS, HTML</li>
+                        </ol>
+                    </dd>
+            </dl>
+        </td>
+    </tr>
+
+    <!-- Trzeci rząd -->
+    <tr>
+        <!-- Pierwsza kolumna -->
+        <td colspan="2">
+            <dl>
+                <dt>HTML</dt>
+                <dd>Język znaczników</dd>
+                <dt>Java</dt>
+                <dd>Język programowania</dd>
+            </dl>
+        </td>
+        <!-- Druga kolumna -->
+        <td>
+            <a href="http://www.google.pl" target="blank">Przejdź do google'a!</a>
+        </td>
+    </tr>
+
+    <!-- Czwarty rząd -->
+    <tr>
+        <!-- Pierwsza kolumna -->
+        <td colspan="3">
+            <input type="submit" value="KLIKNIJ MNIE!"/>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
